@@ -5,6 +5,9 @@ but what if we tried using keyboard + mic data first?
 
 ## Wat
 
+1. Record audio, create JSON keypress outputs
+2. Train a model that can reconstruct keypresses from the audio.
+
 ```
 $ pip install -r requirements.txt
 ./record.py
