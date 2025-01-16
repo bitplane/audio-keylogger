@@ -8,12 +8,22 @@ but what if we tried using keyboard + mic data first?
 1. Record audio, create JSON keypress outputs
 2. Train a model that can reconstruct keypresses from the audio.
 
-```
+```terminal
 $ pip install -r requirements.txt
-./record.py
+$ ./record.py
 ```
 
-Data goes into the ./data dir.
+Data goes into the ./recordings dir. When you've made a few, save the data:
+
+```terminal
+$ ./save.sh
+```
+
+Wehn you're done, upload to archive.org:
+
+```terminal
+$ ./publish.sh
+```
 
 ## Future / todo
 

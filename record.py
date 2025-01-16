@@ -14,7 +14,7 @@ import os
 SAMPLERATE = 44100
 CHANNELS = 1
 SUBTYPE = 'PCM_16'  # Ensure proper audio format
-DATA_DIR = "./data"
+DATA_DIR = "./recordings"
 
 # Ensure the data directory exists
 os.makedirs(DATA_DIR, exist_ok=True)
